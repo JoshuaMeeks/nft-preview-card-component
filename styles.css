@@ -46,3 +46,29 @@ h1 {
   line-height: 170%;
   margin-bottom: 1em;
 }
+
+.bid-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.current-bid {
+  display: flex;
+  align-items: center;
+  color: hsl(178, 100%, 50%);
+  font-size: 600;
+}
+
+.time-left {
+  display: flex;
+  align-items: center;
+  color: hsl(215, 51%, 70%);
+}
+
+.current-bid > img {
+  margin-right: .5em;
+}
+
+.time-left > img {
+  margin-right: .5em;
+}
