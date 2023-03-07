@@ -3,3 +3,27 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: hsl(217, 54%, 11%);
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  width: 300px;
+}
+
+.nft-image {
+  width: 150px;
+  height: 170px;
+}
