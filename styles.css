@@ -115,6 +115,7 @@ h1:hover {
   border: solid white 1px;
   border-radius: 50px;
   margin-right: 1em;
+  cursor: pointer;
 }
 
 .creator > span {
