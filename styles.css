@@ -21,10 +21,13 @@ main {
 
 .card {
   background-color: hsl(216, 50%, 16%);
-  width: 300px;
+  width: 325px;
+  border-radius: 15px;
+  padding: 1.5em;
 }
 
 .nft-image {
-  width: 150px;
-  height: 170px;
+  width: 275px;
+  height: 275px;
+  border-radius: 7px;
 }
