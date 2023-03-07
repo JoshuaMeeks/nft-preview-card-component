@@ -50,6 +50,9 @@ h1 {
 .bid-info {
   display: flex;
   justify-content: space-between;
+  border-bottom: solid .3px hsl(215, 51%, 70%);
+  padding-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 .current-bid {
@@ -71,4 +74,27 @@ h1 {
 
 .time-left > img {
   margin-right: .5em;
+}
+
+.creator {
+  display: flex;
+  align-items: center;
+  color: hsl(215, 51%, 70%);
+}
+
+.avatar {
+  width: 35px;
+  border: solid white 1px;
+  border-radius: 50px;
+  margin-right: 1em;
+}
+
+.creator > span {
+  font-weight: 300;
+}
+
+a:link {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  margin-left: .1em;
 }
